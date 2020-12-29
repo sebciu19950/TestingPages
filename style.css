@@ -1,4 +1,17 @@
+html {
+    scroll-padding-top: 70px; /* fixing stickytop overalping id */
+    scroll-behavior: smooth;
 
+  }
+  body{
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin:0; 
+    padding: 0;
+}
 
 .background1{
     background-color:black;
@@ -18,15 +31,6 @@ nav a:hover{
     transition: all 0.3s;
 }
 
-body{
-    background-image: url("img/bg.jpg");
-    background-size: cover;
-    background-attachment:fixed;
-    background-position:center;
-    background-repeat: no-repeat;
-    margin:0; 
-    padding: 0;
-}
 
 .carousel-item img{
     opacity:0.5;
