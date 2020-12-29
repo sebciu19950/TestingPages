@@ -9,13 +9,13 @@
 }
 .navcolor{
     background-color: black;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 nav a:hover{
     opacity: 0.8;
     background-color: rgb(73, 69, 69);
-    transition: all 0.4s;
+    transition: all 0.3s;
 }
 
 body{
