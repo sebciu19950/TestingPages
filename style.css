@@ -12,7 +12,9 @@ html {
     margin:0; 
     padding: 0;
 }
-
+nav{
+    font-family: 'Langar', cursive;
+}
 .background1{
     background-color:black;
     opacity: 0.6;
