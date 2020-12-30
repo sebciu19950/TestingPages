@@ -58,14 +58,13 @@ iframe{
 }
 .carousel-item:hover{
     transform: scale(1.2);
-    transition: all 1s;
+    transition: all 0.7s ease 0.3s;
     background-color: black;
 }
 .carousel{
     transition: all 1s;
    
 }
-
 p{
     font-size: 16px;
 }
@@ -74,5 +73,22 @@ p{
 }
  #carouselbtn:hover{
     background-color:rgba(255, 255, 255, 0.048);
-    transition: all 0.6s ease 0.2s;
+    transition: all 0.6s ease 0.35s;
+}
+
+#carouselA{
+    transition: all 1s;
+}
+#carouselA:hover{
+    opacity: 0.6;
+    transition: 1s;
+}
+
+.background3{
+    background-image: url("img/brawl.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-size: cover;
 }
