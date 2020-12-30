@@ -32,7 +32,7 @@ html {
     opacity: 0.9;
 }
 
-nav a:hover{
+.nav-link:hover{
     opacity: 0.8;
     background-color: rgb(73, 69, 69);
     transition: all 0.3s;
