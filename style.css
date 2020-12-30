@@ -1,3 +1,7 @@
+*{
+    font-family: 'Langar', sans;
+}
+
 html {
     scroll-padding-top: 70px; /* fixing stickytop overalping id */
     scroll-behavior: smooth;
@@ -12,12 +16,9 @@ html {
     margin:0; 
     padding: 0;
 }
-nav{
-    font-family: 'Langar', cursive;
-}
 .background1{
-    background-color:black;
-    opacity: 0.6;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0.9;
 }
 
 .background2{
@@ -27,7 +28,7 @@ nav{
     height: 100vh;
 }
 .navcolor{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
     opacity: 0.9;
 }
 
@@ -67,4 +68,11 @@ iframe{
 
 p{
     font-size: 16px;
+}
+#carouselbtn{
+    transition: all 0.6s;
+}
+ #carouselbtn:hover{
+    background-color:rgba(255,255,255,0.9);
+    transition: all 0.6s ease 0.2s;
 }
