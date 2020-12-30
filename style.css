@@ -87,9 +87,10 @@ p{
 
 .background3{
     background-image: url("img/minecraft.jpg");
-    background-position:bottom;
+    background-position:center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 140px;
-    background-size:contain;
+    background-size:cover;
+    background-color:rgba(39, 38, 38, 0.6);
 }
