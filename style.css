@@ -42,12 +42,14 @@ html {
 
 .carousel-item img{
     opacity:0.5;
+    filter:sepia() blur(3px);
+    
 }
 
 .carousel-item{
     background: black;
-  
-}
+    
+}   
 
 .carousel-caption {
     top: 20%;
@@ -86,7 +88,8 @@ p{
 }
 
 .background3{
-    background-image: url("img/minecraft.jpg");
+    background-image: url("img/haftowanie.jpg");
+    filter:blur(2.5px);
     background-position:center;
     background-attachment: fixed;
     background-repeat: no-repeat;
