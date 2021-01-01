@@ -96,3 +96,9 @@ p{
     background-size:cover;
     background-color:rgba(39, 38, 38, 0.6);
 }
+
+td, th{
+    font-size: 0.7rem;
+    font-weight: 100;
+    
+}
