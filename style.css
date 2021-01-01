@@ -42,7 +42,7 @@ html {
 
 .carousel-item img{
     opacity:0.5;
-    filter:sepia() blur(3px);
+    filter:sepia() blur(2px);
     
 }
 
