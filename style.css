@@ -107,3 +107,10 @@ td, th{
     font-size: 0.8rem;
     
 }
+
+.background4{
+    background-image: url("img/colors.png");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
